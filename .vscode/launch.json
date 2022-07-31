@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "Build with Build.bat",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "cmd.exe /c ${workspaceFolder}\\Build.bat ${fileBasename} ${fileBasenameNoExtension}.exe",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
