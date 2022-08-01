@@ -56,8 +56,9 @@ int main(int argc, char *argv[])
   {
     // print error message
     printf("Error: Not enough arguments\n");
+    printf("      Usage: vrcwLauncher.exe <VRCW location>\n");
     system("pause");
-    // exit program
+    // exit with error
     return 1;
   }
   // check if there are too many arguments
